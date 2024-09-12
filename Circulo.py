@@ -3,4 +3,4 @@ radio=float(input("Introduzca el radio del circulo"))
 
 area = pi*(radio^2)
 
-print("El area es: "area)
+print("El area es: "+area)
