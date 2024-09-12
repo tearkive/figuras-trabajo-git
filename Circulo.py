@@ -1,6 +1,9 @@
-pi=3.1416
-radio=float(input("Introduzca el radio del circulo"))
+class Circulo:
+    def __init__(self,radio):
+        self.radio = radio
+    
+    def calcular_area(self):
+        return (self.radio)^2*3.1416
 
-area = pi*(radio^2)
-
-print("El area es: "+area)
+#Ejemplo de uso
+circulo = Circulo(3)
