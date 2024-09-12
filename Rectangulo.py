@@ -5,7 +5,3 @@ class Rectangulo:
     
     def calcular_area(self):
         return self.base * self.altura
-
-# Ejemplo de uso
-rectangulo = Rectangulo(5, 3)
-print(f"El área del rectángulo es: {rectangulo.calcular_area()}")
